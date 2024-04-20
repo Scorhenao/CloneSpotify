@@ -1,0 +1,179 @@
+/*General configs*/
+p{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+ul{
+    color:white;
+}
+/*Nav config*/
+.SideNavBar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 150px;
+    width: 300px;
+    height: 100%;
+    background-color: rgba(0,0,0,255);
+    padding: 8px;
+    gap: 10px;
+}
+.Container-1{
+    width: 100%;
+    height: 24%;
+    border-radius: 10px;
+    background-color:rgba(18,18,18,255);
+
+}
+
+#Logo{
+width: 30px;
+}
+
+.item-container1{
+    position: relative;
+    color:gray;
+    transition: color 300ms;
+}
+
+.item-container1 a{
+    width: 100%;
+    color:gray;
+}
+
+.item-container1:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.item-container1 a:hover{
+    color: white;
+}
+
+
+.container-2{
+    width: 100%;
+    height: 90%;
+    min-height: 70%;
+    border-radius: 10px;
+    background-color:rgba(18,18,18,255);
+}
+
+.Container-2Ul{
+    height: 40%;
+}
+.InsideContainer-2Ul{
+    overflow: hidden;
+    padding: 0px;
+}
+
+.InsideContainer-2Ul:hover{ 
+    transition-delay: 5ms;
+    transition-duration: 500ms;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.InsideContainer-2Ul::-webkit-scrollbar {
+    width: 12px;
+
+}
+
+.InsideContainer-2Ul::-webkit-scrollbar-thumb {
+    background-color: #595959;
+}   
+
+
+#IconLibrary{
+    transform: rotate(-90deg);
+}
+
+.ContentLibrary{
+    background-color:#242424;
+    border-radius:8px;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    margin-bottom:30px ;
+}
+
+.buttonsLibrary{
+    background-color:white;
+    color:black;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.buttonsLibrary:hover{
+    transform: scale(1.060);
+    color:black;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.Container-3Ul{
+    display: grid;
+    height: 40%;
+    justify-content: center;
+}
+.TextColor{
+    color:gray;
+    font-size: small;
+}
+
+.LanguageUs{
+    position: relative;
+    width: 200px;
+    height: 35px;
+    align-items:center;
+    justify-content: center;
+    color: gray;
+    position: relative;
+    border:solid 1px white;
+    border-radius: 30px;
+    cursor:pointer;
+    
+}
+
+.LanguageUs a{
+    position: absolute;
+    text-align: center;
+    align-items:center;
+    color:gray;
+    height: 100%;
+    width: 100%;
+    right: -5px;
+    top: 3px;
+}
+
+.LanguageUs:hover{
+    transform: scale(1.060);
+    transition-duration: 200ms;
+    color:white;
+}
+
+.LanguageUs a:hover{
+    transform: scale(1.060);
+    transition-duration: 200ms;
+    color:white;
+}
+#IconGlobe{
+    position: absolute;
+    left: 3px;
+}
+
+
+
