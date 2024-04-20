@@ -9,6 +9,7 @@ body,html{
     width: 100%;
     height: 100%;
     padding: 0;
+    display: flex;
     margin: 0;
     overflow: auto;
 }
@@ -175,5 +176,61 @@ width: 30px;
     left: 3px;
 }
 
+/*Body*/
 
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#242424;
+}
+
+.circulos{
+    width: 50%;
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 10px;
+    
+}
+
+.circulos svg{
+    color: grey;
+    height: 30px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.botones{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.btn{
+    width: 20%;
+    height: 57%;
+    margin-bottom: 0;
+}
+
+.botones .btn{
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#gris{
+    color: grey;
+}
 
