@@ -234,3 +234,50 @@ header{
     color: grey;
 }
 
+.main-section{
+    margin-top: 2px;
+    width: 100%;
+    float: left;
+    background-color:#333333;
+    height: 93%;
+}
+
+.vinculos{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.vinculos a{
+    text-decoration: none;
+    color: grey;
+}
+
+#Lista-repro{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+#inicial{
+    font-size: x-large;
+}
+
+#Mostrar{
+    color: grey;
+    margin-right: 5px;
+}
+
+/*Tarjetas*/
+
+.tarjetas{
+    display: flex;
+    float: left;
+    width: 100%;
+    height: 50%;
+}
+
+.card{
+    height: 50%;
+}
