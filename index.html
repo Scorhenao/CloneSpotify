@@ -22,7 +22,7 @@
 <body>
     <!--Side Nav Bar-->
     <div class="SideNavBar">
-        <ul class="Container-1 nav flex-column p-3 gap-3">
+        <ul class="Container-1 nav flex-column p-3 gap-3 position-relative">
             <li class="nav-item d-flex flex-lg-row text-white ">
                 <img id="Logo" src="./Imgs/logo.png" alt="Logo de spotiy">
                 Spotify
@@ -47,26 +47,26 @@
             </li>
         </ul>
 
-        <div class="container-2 nav d-flex  flex-column align-items-center p-0 ">
-            <ul class="Container-2Ul d-flex flex-column p-3 gap-2">
-                <li class="item-container1 nav-item d-flex flex-row text-decoration-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" id="IconLibrary"
+        <div class="container-2 nav d-flex  flex-column align-items-center p-0 justify-content-center position-relative">
+            <ul class="Container-2Ul w-100 d-flex flex-column p-2 gap-2">
+                <li class="item-container1 nav-item d-flex flex-row align-items-center text-decoration-none gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" id="IconLibrary"
                         class="bi bi-collection-fill" viewBox="0 0 16 16">
                         <path
                             d="M0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3m2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1" />
                     </svg>
 
-                    <a class="nav-link text-decoration-none" style="padding: 2px;     padding-left: 10px;" href="#">Tu
+                    <a class="nav-link text-decoration-none p-0"href="#">Tu
                         biblioteca</a>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="100%" fill="currentColor"
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="100%" fill="currentColor"
                         class="bi bi-plus" style="position:absolute; left:90%;" viewBox="0 0 16 16">
                         <path
                             d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
                     </svg>
                 </li>
-                <ul class="InsideContainer-2Ul d-flex flex-column p-0 gap-2">
-                    <li class="ContentLibrary d-flex flex-column ">
+                <ul class="InsideContainer-2Ul d-flex flex-column gap-2">
+                    <li class="ContentLibrary d-flex flex-column p-2">
                         <h5>Crea tu primera playlist</h5>
                         <p>¡Es muy facil! Te vamos a ayudar</p>
                         <a class="buttonsLibrary" href="#">Crear lista</a>
@@ -115,101 +115,9 @@
             </div>
         </div>
     </div>
+
     <main>
 
-        <!--Header-->
-        <header>
-            <div class="circulos">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
-                </svg>
-            </div>
-
-            <div class="botones">
-                <button type="button" id="gris" class="btn btn-dark">Registrarse</button>
-                <button type="button" class="btn btn-light">Iniciar sesión</button>
-            </div>
-        </header>
-
-        <section class="main-section">
-            <!--Vinculos-->
-            <div class="vinculos">
-                <a href="#" id="Lista-repro"><span id="inicial">L</span>istas de reporducción</a>
-                <a href="#" id="Mostrar">Mostrar todos</a>
-            </div>
-
-            <!--Tarjetas de musica-->
-            <div class="tarjetas">
-                
-                <div class="card" style="width: 18rem;">
-                    <img src="./Imgs/maxresdefault.jpg" class="card-img-top" alt="Blink-182">
-                    <div class="card-body">
-                        <h5 class="card-title">Rock Show</h5>
-                        <p class="card-text">.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <!-- <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div> -->
-            </div>
-        </section>
-        
     </main>
     <!--Scripts de bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
